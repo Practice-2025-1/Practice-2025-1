@@ -207,7 +207,7 @@ svg * {
 
 .header-info {
 	padding-top: 120px;
-  margin-bottom: 50p;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;     /* элементы друг под другом */
   align-items: flex-end;      /* выравнивание текста по правому краю */
@@ -291,16 +291,15 @@ svg * {
 	margin: 0;
 }
 
-.section-banner-list {
-	width: 700px;
-	height: auto;
-	margin-top: 70px;
-	list-style: none;
+.section-annotation-list {
+	list-style-type: none;
 	padding: 0;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	row-gap: 50px;
 }
+
 
 .section-banner-item {
 	display: inline-flex;
@@ -392,8 +391,6 @@ h3 {
 .section-annotation-item {
 	display: flex;
 	align-items: center;
-	margin-bottom: 25px; /* Расстояние между пунктами */
-	row-gap: 40px;
 }
 
 .circle {
