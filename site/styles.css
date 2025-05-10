@@ -611,7 +611,7 @@ html, body {
 
 /* Первый блок - логотип */
 .footer-logo {
-	
+	font-size: 36px;
   white-space: nowrap;
   font-family: 'Polonium', sans-serif;
   font-weight: 700;
@@ -631,7 +631,7 @@ html, body {
 	align-items: start;
   flex-direction: column;
 	margin-top: -3px;
-  margin-right: 350px; /* отступ до третьего элемента */
+  margin-right: 250px; /* отступ до третьего элемента */
 	margin-left: 60px;
 }
 
